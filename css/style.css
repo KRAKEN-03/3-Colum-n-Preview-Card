@@ -1,0 +1,105 @@
+body {
+  text-align: left;
+}
+
+/* Card Heading */
+
+.card-heading {
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 25px;
+}
+
+/* Card Description */
+
+.card-description {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Cars Information Section */
+
+#cars {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card section */
+
+.card-container {
+  width: fit-content;
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Card Items Section*/
+
+.card-items {
+  width: 300px;
+  line-height: 2;
+  padding: 35px 40px;
+}
+
+.item-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.item-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.item-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+/* Car icons */
+
+.car-icon {
+  margin-bottom: 25px;
+}
+
+/* Button */
+
+.button {
+    border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  background-color: hsl(0, 0%, 95%);
+  margin-top: 50px;
+  padding: 8px 20px;
+}
+
+.button:hover {
+    background-color: hsla(0, 0%, 95%, 0);
+    color: hsl(0, 0%, 95%);
+}
+
+.button-1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.button-2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.button-3 {
+  color: hsl(179, 100%, 13%);
+}
+
+
+@media screen and (max-width: 768px) {
+    #cars {
+        height: auto;
+    }
+
+    .card-container {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .card-items {
+        width: 100%;
+        padding: 35px 60px;
+    }
+}
